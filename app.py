@@ -3,7 +3,13 @@ import pickle
 import pandas as pd
 import numpy as np
 
-pipe = pickle.load(open('pipe.pkl', 'rb'))
+import pickle
+import os
+
+file_path = os.path.join(os.path.dirname(__file__), "pipe.pkl")
+
+with open(file_path, "rb") as f:
+    pipe = pickle.load(f)
 
 teams = [
     'Chennai Super Kings','Delhi Capitals',
