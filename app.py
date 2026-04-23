@@ -8,8 +8,16 @@ import os
 
 file_path = os.path.join(os.path.dirname(__file__), "pipe.pkl")
 
-with open(file_path, "rb") as f:
-    pipe = pickle.load(f)
+import traceback
+
+
+try:
+    with open('pipe.pkl', 'rb') as f:
+        pipe = pickle.load(f)
+except Exception as e:
+    st.error(f"Failed to load model: {e}")
+    st.text(traceback.format_exc())
+    st.stop()
 
 teams = [
     'Chennai Super Kings','Delhi Capitals',
