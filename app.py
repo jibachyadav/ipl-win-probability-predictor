@@ -6,8 +6,8 @@ import numpy as np
 pipe = pickle.load(open('pipe.pkl', 'rb'))
 
 teams = [
-    'Chennai Super Kings', 'Deccan Chargers', 'Delhi Capitals',
-    'Delhi Daredevils', 'Kings XI Punjab', 'Kolkata Knight Riders',
+    'Chennai Super Kings','Delhi Capitals',
+    'Kings XI Punjab', 'Kolkata Knight Riders',
     'Mumbai Indians', 'Rajasthan Royals', 'Royal Challengers Bangalore',
     'Sunrisers Hyderabad'
 ]
