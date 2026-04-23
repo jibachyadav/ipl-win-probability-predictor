@@ -6,7 +6,7 @@ A Machine Learning-powered web application that predicts the winning probability
 
 ## 🚀 Live Demo
 
-🔗 https://your-app-link.streamlit.app
+🔗 https://ipl-win-probability-predictor-1-tjpk.onrender.com/
 
 ---
 
@@ -91,31 +91,12 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
----
-
-## 📈 Future Improvements
-
-* Add deep learning models
-* Integrate live match API
-* Improve UI/UX design
-* Add match visualization dashboards
-
----
 
 ## 🤝 Contribution
 
 Contributions are welcome! Feel free to fork the repo and submit a pull request.
 
----
-
-## 📬 Contact
-
-For any queries or collaboration:
-
-* GitHub: https://github.com/your-username
-
----
-
+#
 ## ⭐ Acknowledgment
 
 Inspired by real-world cricket analytics systems and sports data science applications.
